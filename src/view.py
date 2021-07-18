@@ -5,7 +5,6 @@ from src.event_manager import *
 from src.local_config import LocalConfig
 import src.model as model
 from src.models import story
-from src.models import sprite_template
 from src.models import society
 from src.models import button
 from src.models import input_box
