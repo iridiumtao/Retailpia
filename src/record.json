@@ -6,88 +6,53 @@
         "Code": "unknown",
         "Type": "unknown"
     },
-    "oud at 2021/07/18, 00:02:14": {
-        "Name": "unknown",
-        "Brand": "ne",
-        "Pounds": "unknown",
-        "Code": "unknown",
-        "Type": "unknown"
-    },
-    "oud at 2021/07/18, 00:02:16": {
-        "Name": "unknown",
-        "Brand": "ne",
-        "Pounds": "unknown",
-        "Code": "unknown",
-        "Type": "unknown"
-    },
-    "oud at 2021/07/18, 00:02:20": {
-        "Name": "unknown",
-        "Brand": "ne",
-        "Pounds": "unknown",
-        "Code": "unknown",
-        "Type": "unknown"
-    },
-    "oud at 2021/07/18, 00:02:23": {
-        "Name": "unknown",
-        "Brand": "ne",
-        "Pounds": "unknown",
-        "Code": "unknown",
-        "Type": "unknown"
-    },
-    "oud at 2021/07/18, 00:02:27": {
-        "Name": "unknown",
-        "Brand": "ne",
-        "Pounds": "unknown",
-        "Code": "unknown",
-        "Type": "unknown"
-    },
-    "oud at 2021/07/18, 00:02:39": {
-        "Name": "unknown",
-        "Brand": "boba",
-        "Pounds": "unknown",
-        "Code": "unknown",
-        "Type": "unknown"
-    },
-    "oud at 2021/07/18, 00:02:42": {
-        "Name": "unknown",
-        "Brand": "unknown",
-        "Pounds": "unknown",
-        "Code": "unknown",
-        "Type": "unknown"
-    },
-    "oud at 2021/07/18, 00:02:45": {
-        "Name": "unknown",
+    "DevilHYT at 2021/07/18, 13:28:48": {
+        "Name": "shopping",
         "Brand": "next",
-        "Pounds": "unknown",
-        "Code": "unknown",
-        "Type": "unknown"
+        "Pounds": "20",
+        "Code": "4553",
+        "Type": "clothes"
     },
-    "oud at 2021/07/18, 00:02:48": {
-        "Name": "unknown",
-        "Brand": "boba",
-        "Pounds": "unknown",
-        "Code": "unknown",
-        "Type": "unknown"
+    "DevilHYT at 2021/07/18, 13:32:26": {
+        "Name": "shopping",
+        "Brand": "next",
+        "Pounds": "13",
+        "Code": "3537",
+        "Type": "clothes"
     },
-    "oud at 2021/07/18, 00:02:51": {
-        "Name": "unknown",
-        "Brand": "boba",
-        "Pounds": "unknown",
-        "Code": "unknown",
-        "Type": "unknown"
+    "DevilHYT at 2021/07/18, 13:35:09": {
+        "Name": "shopping",
+        "Brand": "next",
+        "Pounds": "22",
+        "Code": "4637",
+        "Type": "clothes"
     },
-    "oud at 2021/07/18, 00:02:53": {
-        "Name": "unknown",
+    "DevilHYT at 2021/07/18, 13:43:32": {
+        "Name": "drink",
         "Brand": "boba",
-        "Pounds": "unknown",
-        "Code": "unknown",
-        "Type": "unknown"
+        "Pounds": "3.2",
+        "Code": "3463",
+        "Type": "foods"
     },
-    "oud at 2021/07/18, 00:06:51": {
-        "Name": "unknown",
+    "DevilHYT at 2021/07/18, 13:43:58": {
+        "Name": "drink",
         "Brand": "boba",
-        "Pounds": "unknown",
-        "Code": "unknown",
-        "Type": "unknown"
+        "Pounds": "4",
+        "Code": "7457",
+        "Type": "foods"
+    },
+    "DevilHYT at 2021/07/18, 13:44:29": {
+        "Name": "drink",
+        "Brand": "boba",
+        "Pounds": "3.6",
+        "Code": "8657",
+        "Type": "foods"
+    },
+    "DevilHYT at 2021/07/18, 14:09:20": {
+        "Name": "petrol",
+        "Brand": "petrol",
+        "Pounds": "13",
+        "Code": "1782",
+        "Type": "transport"
     }
 }

@@ -16,7 +16,7 @@ class Show_history():
         self.text = ""
         self.x = 100
 
-        xs = [400, 520, 640, 760, 880]
+        xs = [360, 480, 600, 720, 840]
         categorys = ["Name", "Brand", "Pounds", "Code", "Type"]
         for i in range(len(categorys)):
             if categorys[i] == self.category:
@@ -32,9 +32,9 @@ class Show_history():
 
     def draw(self, screen):
         self.read_data()
-        screen.blit(pygame.font.Font(None, 40).render(self.category, True, pygame.Color("blue")), (self.x, 100))
+        screen.blit(pygame.font.Font(None, 40).render(self.category, True, (255, 255, 255)), (self.x, 100))
         for i in range(len(self.items)):
-            self.txt = pygame.font.Font(None, 32).render(self.items[i], True, pygame.Color("blue"))
+            self.txt = pygame.font.Font(None, 32).render(self.items[i], True, (255, 255, 255))
             screen.blit(self.txt, (self.x, 150+i*40))
 
     def get_last(self):

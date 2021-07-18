@@ -9,9 +9,10 @@ class Input_box():
     def __init__(self, x, y, w, h, text=""):
 
         self.rect = pygame.Rect(x, y, w, h)
-        self.color = pygame.Color("lightskyblue3")
-        self.text = text
-        self.txt_surface = pygame.font.Font(None, 32).render(text, True, self.color)
+        self.color = (255, 255, 255)
+        self.txt_info_surface = pygame.font.Font(None, 32).render(text, True, self.color) # 輸入提示
+        self.text = ""
+        self.txt_surface = pygame.font.Font(None, 32).render(self.text, True, self.color)
         self.active = False
         self.word = "init"
 
@@ -25,7 +26,7 @@ class Input_box():
             else:
                 self.active = False
             # Change the current color of the input box.
-            self.color = pygame.Color("blue") if self.active else pygame.Color("lightskyblue3")
+            self.color = pygame.Color("lightskyblue3") if self.active else (255, 255, 255)
         if self.active:
             if key == pygame.K_RETURN:
                 print("Input is: " + self.text)
@@ -45,12 +46,18 @@ class Input_box():
 
     def update(self):
         # Resize the box if the text is too long.
-        width = max(200, self.txt_surface.get_width()+10)
+        if self.text == "":
+            width = max(200, self.txt_info_surface.get_width()+10)
+        else:
+            width = max(200, self.txt_surface.get_width()+10)
         self.rect.w = width
 
     def draw(self, screen):
         # Blit the text.
         screen.blit(self.txt_surface, (self.rect.x+5, self.rect.y+5))
+        # default text
+        if self.text == "":
+            screen.blit(self.txt_info_surface, (self.rect.x+5, self.rect.y+5))
         # Blit the rect.
         pygame.draw.rect(screen, self.color, self.rect, 2)
 
