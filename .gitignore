@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# System hidden files
+.DS_Store
+desktop.ini
+
+# config
+config.ini
+
+src/game_info.json
