@@ -7,4 +7,8 @@ This island is a city-building game, and an account book app, and a points colle
 
 We are to make the society better.\
 We are to give the society a new possible way of managing expenses, and engaging with retailers.\
-We are team OvOb, a group from Taiwan, and this is all about Retailpia.
+We are team OvOb, a group from Taiwan, and this is all about Retailpia.\
+
+-----
+MVC structure form:
+https://github.com/wesleywerner/mvc-game-design
